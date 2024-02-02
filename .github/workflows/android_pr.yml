@@ -53,8 +53,8 @@ jobs:
       - name: Post to Debug Group
         shell: bash
         env:
-          GROUP_DEBUG_ID: 1733734494
-          BOT_TOKEN: 1611890876:AAHDHgtX8ldDoHllu3ejCfKxszsSkXDjo_8
+          GROUP_DEBUG_ID: "1733734494"
+          BOT_TOKEN: "1611890876:AAHDHgtX8ldDoHllu3ejCfKxszsSkXDjo_8"
           DEBUG: ${{ env.APK_FILE_DEBUG }}
           COMMIT_MESSAGE: |+
             **New PR to gitHub\!**
